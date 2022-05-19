@@ -5,7 +5,7 @@ const sequelize = new Sequelize('booking', 'root', null, {
   //null neu khong co password connect DB
   host: 'localhost',
   dialect: 'mysql',
-  logging: false,
+  logging: false, //Xoa bo log mac dinh cua Sequelize
 });
 
 let connectDB = async () => {
